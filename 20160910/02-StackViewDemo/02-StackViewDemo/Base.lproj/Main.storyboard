@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZHG-S1-8yE">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="uu7-wB-xpG" userLabel="ImgeStackView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="420"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0b20ad08441d6b4f93a053803e43033d.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wdH-ZV-bVR">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="140"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5448ab79566ed9145f272afa7c4f155e.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="QJ2-HZ-15g">
+                                        <rect key="frame" x="0.0" y="140" width="600" height="140"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="72bc079aece0d69530111ac692695aea.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="49r-yb-9os">
+                                        <rect key="frame" x="0.0" y="280" width="600" height="140"/>
+                                    </imageView>
+                                </subviews>
+                                <variation key="heightClass=compact" axis="horizontal"/>
+                                <variation key="heightClass=regular-widthClass=compact" axis="vertical"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="z3d-44-3Sf">
+                                <rect key="frame" x="0.0" y="494" width="600" height="60"/>
+                                <subviews>
+                                    <stackView contentMode="scaleToFill" misplaced="YES" alignment="firstBaseline" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="K1M-k7-PbC" userLabel="NStackView">
+                                        <rect key="frame" x="0.0" y="0.0" width="170" height="39"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yo4-08-ZZ9">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qIb-qS-kXr" userLabel="BottomStackView">
+                                                <rect key="frame" x="110" y="9" width="60" height="30"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmA-1V-jNI">
+                                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                        <color key="backgroundColor" red="1" green="0.091629707929999998" blue="0.030380896050000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <state key="normal" title="赞"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fE-Jf-Svc">
+                                                        <rect key="frame" x="30" y="0.0" width="30" height="30"/>
+                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <state key="normal" title="分享"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A collection of nature photos from hnqingyun.com" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tsA-me-BSX">
+                                        <rect key="frame" x="0.0" y="39" width="383" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uu7-wB-xpG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="22Z-Ac-wit"/>
+                            <constraint firstItem="uu7-wB-xpG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6yt-1G-MmK"/>
+                            <constraint firstAttribute="trailing" secondItem="uu7-wB-xpG" secondAttribute="trailing" id="B2f-3L-cvb"/>
+                            <constraint firstItem="uu7-wB-xpG" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.7" id="Hlx-cW-FYe"/>
+                            <constraint firstItem="z3d-44-3Sf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Iza-rP-nAT"/>
+                            <constraint firstAttribute="trailing" secondItem="z3d-44-3Sf" secondAttribute="trailing" id="XrE-og-dEA"/>
+                            <constraint firstItem="z3d-44-3Sf" firstAttribute="top" secondItem="uu7-wB-xpG" secondAttribute="bottom" constant="10" id="cH6-fv-JHq"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Leq-GM-SnW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840" y="-359"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="H7s-gZ-gLf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZHG-S1-8yE" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ayb-Mz-hlS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="8TW-ni-Uxc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0q-HT-NgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="144" y="-375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="0b20ad08441d6b4f93a053803e43033d.jpg" width="2880" height="1800"/>
+        <image name="5448ab79566ed9145f272afa7c4f155e.jpg" width="1920" height="1200"/>
+        <image name="72bc079aece0d69530111ac692695aea.jpg" width="1280" height="800"/>
+    </resources>
+</document>

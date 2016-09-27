@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF4ECDC1D94BE280050860C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4ECDB1D94BE280050860C /* AppDelegate.swift */; };
+		CCF4ECDE1D94BE280050860C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4ECDD1D94BE280050860C /* ViewController.swift */; };
+		CCF4ECE11D94BE280050860C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF4ECDF1D94BE280050860C /* Main.storyboard */; };
+		CCF4ECE41D94BE280050860C /* _1_______.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCF4ECE21D94BE280050860C /* _1_______.xcdatamodeld */; };
+		CCF4ECE61D94BE280050860C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF4ECE51D94BE280050860C /* Assets.xcassets */; };
+		CCF4ECE91D94BE280050860C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF4ECE71D94BE280050860C /* LaunchScreen.storyboard */; };
+		CCF4ECF11D94C0E80050860C /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF4ECF01D94C0E80050860C /* GreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCF4ECD81D94BE280050860C /* 01-故事板的跳转.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01-故事板的跳转.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF4ECDB1D94BE280050860C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF4ECDD1D94BE280050860C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF4ECE01D94BE280050860C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF4ECE31D94BE280050860C /* _1_______.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "_1_______.xcdatamodel"; sourceTree = "<group>"; };
+		CCF4ECE51D94BE280050860C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF4ECE81D94BE280050860C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF4ECEA1D94BE280050860C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF4ECF01D94C0E80050860C /* GreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF4ECD51D94BE280050860C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF4ECCF1D94BE270050860C = {
+			isa = PBXGroup;
+			children = (
+				CCF4ECDA1D94BE280050860C /* 01-故事板的跳转 */,
+				CCF4ECD91D94BE280050860C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF4ECD91D94BE280050860C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4ECD81D94BE280050860C /* 01-故事板的跳转.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF4ECDA1D94BE280050860C /* 01-故事板的跳转 */ = {
+			isa = PBXGroup;
+			children = (
+				CCF4ECDB1D94BE280050860C /* AppDelegate.swift */,
+				CCF4ECDD1D94BE280050860C /* ViewController.swift */,
+				CCF4ECDF1D94BE280050860C /* Main.storyboard */,
+				CCF4ECE51D94BE280050860C /* Assets.xcassets */,
+				CCF4ECE71D94BE280050860C /* LaunchScreen.storyboard */,
+				CCF4ECEA1D94BE280050860C /* Info.plist */,
+				CCF4ECE21D94BE280050860C /* _1_______.xcdatamodeld */,
+				CCF4ECF01D94C0E80050860C /* GreenViewController.swift */,
+			);
+			path = "01-故事板的跳转";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF4ECD71D94BE280050860C /* 01-故事板的跳转 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF4ECED1D94BE280050860C /* Build configuration list for PBXNativeTarget "01-故事板的跳转" */;
+			buildPhases = (
+				CCF4ECD41D94BE280050860C /* Sources */,
+				CCF4ECD51D94BE280050860C /* Frameworks */,
+				CCF4ECD61D94BE280050860C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01-故事板的跳转";
+			productName = "01-故事板的跳转";
+			productReference = CCF4ECD81D94BE280050860C /* 01-故事板的跳转.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF4ECD01D94BE270050860C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = qingyun;
+				TargetAttributes = {
+					CCF4ECD71D94BE280050860C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = CCF4ECD31D94BE270050860C /* Build configuration list for PBXProject "01-故事板的跳转" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF4ECCF1D94BE270050860C;
+			productRefGroup = CCF4ECD91D94BE280050860C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF4ECD71D94BE280050860C /* 01-故事板的跳转 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF4ECD61D94BE280050860C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4ECE91D94BE280050860C /* LaunchScreen.storyboard in Resources */,
+				CCF4ECE61D94BE280050860C /* Assets.xcassets in Resources */,
+				CCF4ECE11D94BE280050860C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF4ECD41D94BE280050860C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF4ECF11D94C0E80050860C /* GreenViewController.swift in Sources */,
+				CCF4ECDE1D94BE280050860C /* ViewController.swift in Sources */,
+				CCF4ECE41D94BE280050860C /* _1_______.xcdatamodeld in Sources */,
+				CCF4ECDC1D94BE280050860C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCF4ECDF1D94BE280050860C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF4ECE01D94BE280050860C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF4ECE71D94BE280050860C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF4ECE81D94BE280050860C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF4ECEB1D94BE280050860C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF4ECEC1D94BE280050860C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF4ECEE1D94BE280050860C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-故事板的跳转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCF4ECEF1D94BE280050860C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "01-故事板的跳转/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qingyun.-1-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF4ECD31D94BE270050860C /* Build configuration list for PBXProject "01-故事板的跳转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF4ECEB1D94BE280050860C /* Debug */,
+				CCF4ECEC1D94BE280050860C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF4ECED1D94BE280050860C /* Build configuration list for PBXNativeTarget "01-故事板的跳转" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF4ECEE1D94BE280050860C /* Debug */,
+				CCF4ECEF1D94BE280050860C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CCF4ECE21D94BE280050860C /* _1_______.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CCF4ECE31D94BE280050860C /* _1_______.xcdatamodel */,
+			);
+			currentVersion = CCF4ECE31D94BE280050860C /* _1_______.xcdatamodel */;
+			path = "_1_______.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CCF4ECD01D94BE270050860C /* Project object */;
+}

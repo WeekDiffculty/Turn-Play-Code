@@ -1,0 +1,6 @@
+framework module Pods_04__ {
+  umbrella header "Pods-04网络-umbrella.h"
+
+  export *
+  module * { export * }
+}

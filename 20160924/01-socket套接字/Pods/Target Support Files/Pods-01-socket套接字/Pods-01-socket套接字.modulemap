@@ -1,0 +1,6 @@
+framework module Pods_01_socket___ {
+  umbrella header "Pods-01-socket套接字-umbrella.h"
+
+  export *
+  module * { export * }
+}
